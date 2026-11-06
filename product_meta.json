@@ -1,0 +1,25 @@
+{
+  "number": 80,
+  "product_id": "JLZ-EDU-SK-064",
+  "chinese_name": "应收款核对",
+  "english_name": "Accounts Receivable Reconciliation",
+  "repository_name": "edu-accounts-receivable-reconciliation",
+  "product_type": "Skill",
+  "category": "07 财务运营中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-accounts-receivable-reconciliation-v1.0.0.zip",
+  "calculator": true,
+  "core_input": "合同/课包、应收金额、已收金额、退款、日期和客户编码",
+  "main_output": "应收明细、差异表、账龄、待核对项和建议动作",
+  "package_entries": [
+    "edu-accounts-receivable-reconciliation/SKILL.md",
+    "edu-accounts-receivable-reconciliation/references/DOMAIN_GUIDE.md",
+    "edu-accounts-receivable-reconciliation/references/EXAMPLES.md",
+    "edu-accounts-receivable-reconciliation/templates/OUTPUT_TEMPLATE.md",
+    "edu-accounts-receivable-reconciliation/scripts/calculate.js"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "product_id": "JLZ-EDU-SK-064",
+  "repository_name": "edu-accounts-receivable-reconciliation",
+  "product_type": "Skill",
+  "version": "1.0.0",
+  "package_path": "dist/edu-accounts-receivable-reconciliation-v1.0.0.zip",
+  "sha256": "6ADB532FE109A993791E9E50DC95BC20079C8A1729BA5791870BE810ADF379A5",
+  "bytes": 5426,
+  "entries": [
+    "edu-accounts-receivable-reconciliation/SKILL.md",
+    "edu-accounts-receivable-reconciliation/references/DOMAIN_GUIDE.md",
+    "edu-accounts-receivable-reconciliation/references/EXAMPLES.md",
+    "edu-accounts-receivable-reconciliation/templates/OUTPUT_TEMPLATE.md",
+    "edu-accounts-receivable-reconciliation/scripts/calculate.js"
+  ],
+  "built_at": "2026-11-06T22:45:25.7815749+08:00",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED"
+}
