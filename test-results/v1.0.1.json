@@ -1,0 +1,679 @@
+{
+  "product_id": "JLZ-EDU-SK-064",
+  "repository_name": "edu-accounts-receivable-reconciliation",
+  "product_type": "Skill",
+  "version": "1.0.1",
+  "tested_at": "2026-11-07T09:18:54.2225879+08:00",
+  "tested_tree_sha": "4b0de8df2d45002234d509d456976e929494306a",
+  "package_path": "dist/edu-accounts-receivable-reconciliation-v1.0.1.zip",
+  "package_sha256": "1100CF09E82969CC4C4077049E7BCC1DA72B0872E6F8C92DA0F6D5852BA2D0D7",
+  "layers": {
+    "T1_FILE_STRUCTURE": [
+      {
+        "name": "exists:README.md",
+        "input": "exists:README.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:PRODUCT_SPEC.md",
+        "input": "exists:PRODUCT_SPEC.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:LICENSE",
+        "input": "exists:LICENSE",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:BASELINE_VERSION.md",
+        "input": "exists:BASELINE_VERSION.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:USAGE.md",
+        "input": "exists:USAGE.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:CHANGELOG.md",
+        "input": "exists:CHANGELOG.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:VERSION",
+        "input": "exists:VERSION",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:THIRD_PARTY_NOTICES.md",
+        "input": "exists:THIRD_PARTY_NOTICES.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:product_meta.json",
+        "input": "exists:product_meta.json",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:package-manifest.json",
+        "input": "exists:package-manifest.json",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:G5_G9_CHANGE_RECORD.md",
+        "input": "exists:G5_G9_CHANGE_RECORD.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:dist/edu-accounts-receivable-reconciliation-v1.0.1.zip",
+        "input": "exists:dist/edu-accounts-receivable-reconciliation-v1.0.1.zip",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/TEST_CASES.md",
+        "input": "exists:tests/TEST_CASES.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/validate_package.ps1",
+        "input": "exists:tests/validate_package.ps1",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/scenarios/complete.json",
+        "input": "exists:tests/scenarios/complete.json",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/scenarios/missing.json",
+        "input": "exists:tests/scenarios/missing.json",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/scenarios/conflict.json",
+        "input": "exists:tests/scenarios/conflict.json",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/scenarios/sensitive.json",
+        "input": "exists:tests/scenarios/sensitive.json",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/scenarios/malformed.txt",
+        "input": "exists:tests/scenarios/malformed.txt",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:scripts/validate_input.js",
+        "input": "exists:scripts/validate_input.js",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:SKILL.md",
+        "input": "exists:SKILL.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:references/DOMAIN_GUIDE.md",
+        "input": "exists:references/DOMAIN_GUIDE.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:references/EXAMPLES.md",
+        "input": "exists:references/EXAMPLES.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:templates/OUTPUT_TEMPLATE.md",
+        "input": "exists:templates/OUTPUT_TEMPLATE.md",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:scripts/calculate.js",
+        "input": "exists:scripts/calculate.js",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/calculator-cases.json",
+        "input": "exists:tests/calculator-cases.json",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      },
+      {
+        "name": "exists:tests/calculator-cases",
+        "input": "exists:tests/calculator-cases",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "exists",
+        "passed": true
+      }
+    ],
+    "T2_METADATA_CONTRACT": [
+      {
+        "name": "version",
+        "input": "version",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "1.0.1",
+        "actual": "1.0.1",
+        "passed": true
+      },
+      {
+        "name": "status",
+        "input": "status",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "G9_PRE_RELEASE_ACCEPTED",
+        "actual": "G9_PRE_RELEASE_ACCEPTED",
+        "passed": true
+      },
+      {
+        "name": "g5_status",
+        "input": "g5_status",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "G5_STRENGTHENED",
+        "actual": "G5_STRENGTHENED",
+        "passed": true
+      },
+      {
+        "name": "runtime_status",
+        "input": "runtime_status",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "NOT_RUNTIME_VERIFIED",
+        "actual": "NOT_RUNTIME_VERIFIED",
+        "passed": true
+      },
+      {
+        "name": "workbuddy_status",
+        "input": "workbuddy_status",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
+        "actual": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
+        "passed": true
+      },
+      {
+        "name": "package_state",
+        "input": "package_state",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+        "actual": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+        "passed": true
+      },
+      {
+        "name": "baseline_commit",
+        "input": "baseline_commit",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "40-char commit SHA",
+        "actual": "f092d9997546f7302bba0fdd7a5a3e31dd985c07",
+        "passed": true
+      },
+      {
+        "name": "main_output_fields",
+        "input": "main_output_fields",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "at least one output field",
+        "actual": "4",
+        "passed": true
+      },
+      {
+        "name": "skill_name",
+        "input": "skill_name",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "edu-accounts-receivable-reconciliation",
+        "actual": "frontmatter",
+        "passed": true
+      },
+      {
+        "name": "skill_version",
+        "input": "skill_version",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "1.0.1",
+        "actual": "frontmatter",
+        "passed": true
+      },
+      {
+        "name": "skill_field:display_name",
+        "input": "skill_field:display_name",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "skill_field:display_name_en",
+        "input": "skill_field:display_name_en",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "skill_field:description",
+        "input": "skill_field:description",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "skill_field:description_zh",
+        "input": "skill_field:description_zh",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "skill_field:description_en",
+        "input": "skill_field:description_en",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "skill_field:examples_zh",
+        "input": "skill_field:examples_zh",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "skill_field:examples_en",
+        "input": "skill_field:examples_en",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "skill_field:author",
+        "input": "skill_field:author",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present",
+        "actual": "checked",
+        "passed": true
+      }
+    ],
+    "T3_PRODUCT_CONTRACT": [
+      {
+        "name": "workflow",
+        "input": "workflow",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "workflow section",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "product_specific_rules",
+        "input": "product_specific_rules",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "product-specific rules and dedup boundary",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "traceability_matrix",
+        "input": "traceability_matrix",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "input-to-output mapping",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "input_contract",
+        "input": "input_contract",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "合同/课包、应收金额、已收金额、退款、日期和客户编码",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "output_contract",
+        "input": "output_contract",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "应收明细、差异表、账龄、待核对项和建议动作",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "exception_boundary",
+        "input": "exception_boundary",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exception and refusal",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "independence",
+        "input": "independence",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "independent use",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "output_field:应收明细",
+        "input": "output_field:应收明细",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present in template",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "output_field:差异表",
+        "input": "output_field:差异表",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present in template",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "output_field:账龄",
+        "input": "output_field:账龄",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present in template",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "output_field:待核对项和建议动作",
+        "input": "output_field:待核对项和建议动作",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "present in template",
+        "actual": "checked",
+        "passed": true
+      }
+    ],
+    "T4_DETERMINISTIC_FUNCTION": [
+      {
+        "name": "input_validator_complete",
+        "input": "tests/scenarios/complete.json",
+        "execution": "node scripts/validate_input.js tests/scenarios/complete.json",
+        "expected": "exit=0 status=READY_FOR_PROCESSING",
+        "actual": "exit=0 status=READY_FOR_PROCESSING",
+        "passed": true
+      },
+      {
+        "name": "output_contract_returned",
+        "input": "tests/scenarios/complete.json",
+        "execution": "compare validator output_fields to product_meta.main_output_fields",
+        "expected": "4 output fields",
+        "actual": "4 output fields",
+        "passed": true
+      },
+      {
+        "name": "calculator_case_count",
+        "input": "tests/calculator-cases.json",
+        "execution": "load executable calculator case index",
+        "expected": "at least 1 executed calculator case",
+        "actual": "5",
+        "passed": true
+      },
+      {
+        "name": "calculator:normal",
+        "input": "tests/calculator-cases/normal.json",
+        "execution": "node scripts/calculate.js tests/calculator-cases/normal.json",
+        "expected": "exit=0 expected={\"status\":\"ok\",\"totalBalance\":500,\"requiresLedgerReview\":true,\"items\":[{\"contractId\":\"A001\",\"status\":\"outstanding\",\"balance\":500}]}",
+        "actual": "exit=0 actual={\"status\":\"ok\",\"formula_version\":\"1.0.1\",\"items\":[{\"contractId\":\"A001\",\"receivable\":1000,\"received\":400,\"refund\":100,\"balance\":500,\"status\":\"outstanding\"}],\"totalBalance\":500,\"totals\":{\"receivable\":1000,\"received\":400,\"refund\":100},\"requiresLedgerReview\":true}",
+        "passed": true
+      }
+    ],
+    "T5_SCENARIO_TESTS": [
+      {
+        "name": "calculator:missing-items",
+        "input": "tests/calculator-cases/missing-items.json",
+        "execution": "node scripts/calculate.js tests/calculator-cases/missing-items.json",
+        "expected": "exit=2 expected={\"errors\":[\"应收核对明细不能为空\"],\"status\":\"invalid\"}",
+        "actual": "exit=2 actual={\"status\":\"invalid\",\"formula_version\":\"1.0.1\",\"errors\":[\"应收核对明细不能为空\"]}",
+        "passed": true
+      },
+      {
+        "name": "calculator:negative-amount",
+        "input": "tests/calculator-cases/negative-amount.json",
+        "execution": "node scripts/calculate.js tests/calculator-cases/negative-amount.json",
+        "expected": "exit=2 expected={\"errors\":[\"A001.receivable必须是非负有限数值\"],\"status\":\"invalid\"}",
+        "actual": "exit=2 actual={\"status\":\"invalid\",\"formula_version\":\"1.0.1\",\"errors\":[\"A001.receivable必须是非负有限数值\"]}",
+        "passed": true
+      },
+      {
+        "name": "calculator:matched",
+        "input": "tests/calculator-cases/matched.json",
+        "execution": "node scripts/calculate.js tests/calculator-cases/matched.json",
+        "expected": "exit=0 expected={\"status\":\"ok\",\"totalBalance\":0,\"items\":[{\"contractId\":\"A001\",\"status\":\"matched\",\"balance\":0}]}",
+        "actual": "exit=0 actual={\"status\":\"ok\",\"formula_version\":\"1.0.1\",\"items\":[{\"contractId\":\"A001\",\"receivable\":1000,\"received\":1000,\"refund\":0,\"balance\":0,\"status\":\"matched\"}],\"totalBalance\":0,\"totals\":{\"receivable\":1000,\"received\":1000,\"refund\":0},\"requiresLedgerReview\":true}",
+        "passed": true
+      },
+      {
+        "name": "calculator:overpaid",
+        "input": "tests/calculator-cases/overpaid.json",
+        "execution": "node scripts/calculate.js tests/calculator-cases/overpaid.json",
+        "expected": "exit=0 expected={\"status\":\"ok\",\"totalBalance\":-100,\"items\":[{\"contractId\":\"A001\",\"status\":\"overpaid\",\"balance\":-100}]}",
+        "actual": "exit=0 actual={\"status\":\"ok\",\"formula_version\":\"1.0.1\",\"items\":[{\"contractId\":\"A001\",\"receivable\":1000,\"received\":1100,\"refund\":0,\"balance\":-100,\"status\":\"overpaid\"}],\"totalBalance\":-100,\"totals\":{\"receivable\":1000,\"received\":1100,\"refund\":0},\"requiresLedgerReview\":true}",
+        "passed": true
+      },
+      {
+        "name": "scenario:missing.json",
+        "input": "tests/scenarios/missing.json",
+        "execution": "node scripts/validate_input.js tests/scenarios/missing.json",
+        "expected": "exit=2 status=NEEDS_INPUT",
+        "actual": "exit=2 status=NEEDS_INPUT",
+        "passed": true
+      },
+      {
+        "name": "scenario:conflict.json",
+        "input": "tests/scenarios/conflict.json",
+        "execution": "node scripts/validate_input.js tests/scenarios/conflict.json",
+        "expected": "exit=2 status=NEEDS_CONFIRMATION",
+        "actual": "exit=2 status=NEEDS_CONFIRMATION",
+        "passed": true
+      },
+      {
+        "name": "scenario:sensitive.json",
+        "input": "tests/scenarios/sensitive.json",
+        "execution": "node scripts/validate_input.js tests/scenarios/sensitive.json",
+        "expected": "exit=0 status=READY_WITH_PRIVACY_WARNING",
+        "actual": "exit=0 status=READY_WITH_PRIVACY_WARNING",
+        "passed": true
+      },
+      {
+        "name": "scenario:malformed.txt",
+        "input": "tests/scenarios/malformed.txt",
+        "execution": "node scripts/validate_input.js tests/scenarios/malformed.txt",
+        "expected": "exit=2 status=INVALID_JSON",
+        "actual": "exit=2 status=INVALID_JSON",
+        "passed": true
+      }
+    ],
+    "T6_SECURITY": [
+      {
+        "name": "secret_patterns",
+        "input": "secret_patterns",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "0",
+        "actual": "0",
+        "passed": true
+      },
+      {
+        "name": "paid_api_dependency",
+        "input": "paid_api_dependency",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "0",
+        "actual": "0",
+        "passed": true
+      },
+      {
+        "name": "internal_paths",
+        "input": "internal_paths",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "0",
+        "actual": "0",
+        "passed": true
+      }
+    ],
+    "T7_PACKAGE_INTEGRITY": [
+      {
+        "name": "zip_exists",
+        "input": "zip_exists",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "exists",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "package_entries",
+        "input": "package_entries",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "manifest entries equal zip entries",
+        "actual": "10 entries",
+        "passed": true
+      },
+      {
+        "name": "license_in_zip",
+        "input": "license_in_zip",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "LICENSE",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "license_manifest",
+        "input": "license_manifest",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "license registered with normalized SHA-256",
+        "actual": "manifest=CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30 repository=CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+        "passed": true
+      },
+      {
+        "name": "license_zip_matches_repository",
+        "input": "license_zip_matches_repository",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+        "actual": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+        "passed": true
+      },
+      {
+        "name": "zip_sha256",
+        "input": "zip_sha256",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "1100CF09E82969CC4C4077049E7BCC1DA72B0872E6F8C92DA0F6D5852BA2D0D7",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "third_party_notice",
+        "input": "third_party_notice",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "THIRD_PARTY_NOTICES.md",
+        "actual": "checked",
+        "passed": true
+      },
+      {
+        "name": "manifest_version",
+        "input": "manifest_version",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "1.0.1",
+        "actual": "1.0.1",
+        "passed": true
+      },
+      {
+        "name": "package_state",
+        "input": "package_state",
+        "execution": "PowerShell static or contract assertion in tests/validate_package.ps1",
+        "expected": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+        "actual": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+        "passed": true
+      }
+    ]
+  },
+  "layer_status": {
+    "T1_FILE_STRUCTURE": "PASS",
+    "T2_METADATA_CONTRACT": "PASS",
+    "T3_PRODUCT_CONTRACT": "PASS",
+    "T4_DETERMINISTIC_FUNCTION": "PASS",
+    "T5_SCENARIO_TESTS": "PASS",
+    "T6_SECURITY": "PASS",
+    "T7_PACKAGE_INTEGRITY": "PASS"
+  },
+  "t5_execution_mode": "PASS_DETERMINISTIC_SCENARIOS",
+  "model_runtime_status": "NOT_RUNTIME_VERIFIED",
+  "overall_package_status": "G9_PRE_RELEASE_ACCEPTED",
+  "errors": []
+}

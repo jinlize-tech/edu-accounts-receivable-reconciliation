@@ -1,11 +1,1 @@
-{
-  "totalBalance": 500,
-  "items": [
-    {
-      "balance": 500,
-      "contractId": "A001",
-      "status": "outstanding"
-    }
-  ],
-  "status": "ok"
-}
+null
