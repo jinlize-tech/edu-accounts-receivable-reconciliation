@@ -5,16 +5,16 @@
     "input_file": "tests/calculator-cases/normal.json",
     "expected_exit_code": 0,
     "expected": {
-      "status": "ok",
-      "totalBalance": 500,
       "requiresLedgerReview": true,
       "items": [
         {
-          "contractId": "A001",
           "status": "outstanding",
+          "contractId": "A001",
           "balance": 500
         }
-      ]
+      ],
+      "status": "ok",
+      "totalBalance": 500
     }
   },
   {
@@ -23,10 +23,10 @@
     "input_file": "tests/calculator-cases/missing-items.json",
     "expected_exit_code": 2,
     "expected": {
+      "status": "invalid",
       "errors": [
         "应收核对明细不能为空"
-      ],
-      "status": "invalid"
+      ]
     }
   },
   {
@@ -35,10 +35,10 @@
     "input_file": "tests/calculator-cases/negative-amount.json",
     "expected_exit_code": 2,
     "expected": {
+      "status": "invalid",
       "errors": [
         "A001.receivable必须是非负有限数值"
-      ],
-      "status": "invalid"
+      ]
     }
   },
   {
@@ -47,15 +47,15 @@
     "input_file": "tests/calculator-cases/matched.json",
     "expected_exit_code": 0,
     "expected": {
-      "status": "ok",
-      "totalBalance": 0,
       "items": [
         {
-          "contractId": "A001",
           "status": "matched",
+          "contractId": "A001",
           "balance": 0
         }
-      ]
+      ],
+      "status": "ok",
+      "totalBalance": 0
     }
   },
   {
@@ -64,15 +64,15 @@
     "input_file": "tests/calculator-cases/overpaid.json",
     "expected_exit_code": 0,
     "expected": {
-      "status": "ok",
-      "totalBalance": -100,
       "items": [
         {
-          "contractId": "A001",
           "status": "overpaid",
+          "contractId": "A001",
           "balance": -100
         }
-      ]
+      ],
+      "status": "ok",
+      "totalBalance": -100
     }
   }
 ]
