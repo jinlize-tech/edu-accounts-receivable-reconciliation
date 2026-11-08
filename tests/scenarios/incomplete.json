@@ -1,0 +1,11 @@
+{
+  "scenario_name": "incomplete",
+  "business_context": "用户在应收款核对任务开始阶段只提供了少量资料。",
+  "inputs": {
+    "合同/课包": "标准合成场景｜版本已确认；仅使用用户主动提供的脱敏材料（合成资料）",
+    "应收金额": "标准合成场景｜人民币口径；演示预算30000元、客单价4800元（合成数值） 统计期间2027年3月；币种CNY；金额为演示值（合成财务口径）"
+  },
+  "data_status": "confirmed",
+  "conflicts": [],
+  "contains_sensitive_data": false
+}

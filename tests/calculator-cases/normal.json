@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "receivable": 1000,
-      "contractId": "A001",
       "received": 400,
-      "refund": 100
+      "receivable": 1000,
+      "refund": 100,
+      "contractId": "A001"
     }
   ]
 }

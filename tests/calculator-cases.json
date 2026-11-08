@@ -5,7 +5,8 @@
     "input_file": "tests/calculator-cases/normal.json",
     "expected_exit_code": 0,
     "expected": {
-      "requiresLedgerReview": true,
+      "totalBalance": 500,
+      "status": "ok",
       "items": [
         {
           "status": "outstanding",
@@ -13,8 +14,7 @@
           "balance": 500
         }
       ],
-      "status": "ok",
-      "totalBalance": 500
+      "requiresLedgerReview": true
     }
   },
   {
@@ -47,15 +47,15 @@
     "input_file": "tests/calculator-cases/matched.json",
     "expected_exit_code": 0,
     "expected": {
+      "totalBalance": 0,
+      "status": "ok",
       "items": [
         {
           "status": "matched",
           "contractId": "A001",
           "balance": 0
         }
-      ],
-      "status": "ok",
-      "totalBalance": 0
+      ]
     }
   },
   {
@@ -64,15 +64,15 @@
     "input_file": "tests/calculator-cases/overpaid.json",
     "expected_exit_code": 0,
     "expected": {
+      "totalBalance": -100,
+      "status": "ok",
       "items": [
         {
           "status": "overpaid",
           "contractId": "A001",
           "balance": -100
         }
-      ],
-      "status": "ok",
-      "totalBalance": -100
+      ]
     }
   }
 ]
